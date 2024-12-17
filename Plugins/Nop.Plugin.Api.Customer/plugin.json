@@ -1,0 +1,12 @@
+{
+  "Group": "Api",
+  "FriendlyName": "Customer API Plugin",
+  "SystemName": "Nop.Plugin.Api.Customer",
+  "Version": "1.0.0",
+  "SupportedVersions": [
+    "4.50"
+  ],
+  "Author": "Sleem Mostafa",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Api.Customer.dll"
+}
