@@ -4,9 +4,21 @@
     <projectFile profileName="IIS Express">Presentation/Nop.Web/Nop.Web.csproj</projectFile>
     <projectFile profileName="Nop.Web">Presentation/Nop.Web/Nop.Web.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffe21565-4d8f-4db6-b3e2-4cff328785c2" name="Changes" comment="push reload project">
+    <list default="true" id="ffe21565-4d8f-4db6-b3e2-4cff328785c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Plugins/Nop.Plugin.Api.Customer/Controllers/CustomerApiController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Nop.Plugin.Api.Customer/Infrastructure/NopStartup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Nop.Plugin.Api.Customer/Infrastructure/RouteProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Nop.Plugin.Api.Customer/Models/CheckerContactExistsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Nop.Plugin.Api.Customer/Services/CustomerCrmService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NopCommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NopCommerce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NopCommerce.sln" beforeDir="false" afterPath="$PROJECT_DIR$/NopCommerce.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Nop.Plugin.Widgets.What3words/Infrastructure/RouteProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Nop.Plugin.Widgets.What3words/Infrastructure/RouteProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Nop.Web/App_Data/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Nop.Web/App_Data/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentation/Nop.Web/Controllers/CustomerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentation/Nop.Web/Controllers/CustomerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +28,19 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSON File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,10 +56,47 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Projects/nopCommerce_Source/src/Presentation/Nop.Web/Plugins/DiscountRules.CustomerRoles/Nop.Plugin.DiscountRules.CustomerRoles.deps.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/03fcdaf8b307481a8b1ba74b072e7c711cbb20/35/40a900ba/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/ad92fa99f537446fa2c46575fc03d0da6c030/63/722eaa0a/ServiceClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/cab7b2ce836340dca1db62eb6ad766f21879e0/25/20e8ab22/SqlConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/nopCommerce_Source/src/Presentation/Nop.Web/App_Data/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/nopCommerce_Source/src/Presentation/Nop.Web/App_Data/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/Plugins/DiscountRules.CustomerRoles/Nop.Plugin.DiscountRules.CustomerRoles.deps.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/Plugins/Nop.Plugin.Api.Customer/Nop.Plugin.Api.Customer.deps.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/Plugins/PLUGIN_OUTPUT_DIRECTORY/Nop.Plugin.Api.Customer.deps.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/Plugins/Payments.PayPalCommerce/Nop.Plugin.Payments.PayPalCommerce.deps.json" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Projects/nopCommerce_Source/src/Presentation/Nop.Web/Plugins/Payments.PayPalCommerce/Nop.Plugin.Payments.PayPalCommerce.deps.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/Plugins/Tax.Avalara/Nop.Plugin.Tax.Avalara.deps.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Projects/nopCommerce_Source/src/Presentation/Nop.Web/Plugins/Widgets.What3words/Nop.Web.staticwebassets.runtime.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/Plugins/Widgets.What3words/Nop.Web.staticwebassets.runtime.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ba-RU.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ce-RU.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.cu-RU.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.en-RW.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.es-CR.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.fr-RE.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.os-RU.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rm-CH.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rm.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rn-BI.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rn.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ro-MD.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ro-RO.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ro.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rof.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ru-KG.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ru-KZ.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ru-MD.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ru-RU.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ru-UA.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.ru.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rw-RW.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rw.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rwk-TZ.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.rwk.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.sah-RU.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Presentation/Nop.Web/wwwroot/lib/kendo/2020.1.406/js/cultures/kendo.culture.sr-Cyrl-RS.min.js.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -49,9 +110,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.Nop.Web.executor": "Run",
+    ".NET Launch Settings Profile.Nop.Web.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Plugin/master/Create-plugin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
@@ -100,6 +164,7 @@
       <workItem from="1734374860493" duration="73000" />
       <workItem from="1734375191991" duration="83000" />
       <workItem from="1734375297917" duration="352000" />
+      <workItem from="1734388061590" duration="14348000" />
     </task>
     <task id="LOCAL-00001" summary="push reload project">
       <option name="closed" value="true" />
@@ -121,5 +186,50 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="push reload project" />
     <option name="LAST_COMMIT_MESSAGE" value="push reload project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Plugins/Nop.Plugin.DiscountRules.CustomerRoles/Controllers/DiscountRulesCustomerRolesController.cs</url>
+          <line>99</line>
+          <properties documentPath="D:\Projects\nopCommerce_Source\src\Plugins\Nop.Plugin.DiscountRules.CustomerRoles\Controllers\DiscountRulesCustomerRolesController.cs" containingFunctionPresentation="Method 'Configure'">
+            <startOffsets>
+              <option value="3995" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3996" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Plugins/Nop.Plugin.Tax.Avalara/Controllers/AvalaraController.cs</url>
+          <line>167</line>
+          <properties documentPath="D:\Projects\nopCommerce_Source\src\Plugins\Nop.Plugin.Tax.Avalara\Controllers\AvalaraController.cs" containingFunctionPresentation="Method 'Configure'">
+            <startOffsets>
+              <option value="8534" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8535" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Plugins/Nop.Plugin.Api.Customer/Controllers/CustomerApiController.cs</url>
+          <line>22</line>
+          <properties documentPath="D:\Projects\nopCommerce_Source\src\Plugins\Nop.Plugin.Api.Customer\Controllers\CustomerApiController.cs" containingFunctionPresentation="Method 'CheckContactExists'">
+            <startOffsets>
+              <option value="736" />
+            </startOffsets>
+            <endOffsets>
+              <option value="737" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

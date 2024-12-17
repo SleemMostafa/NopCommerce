@@ -17,7 +17,7 @@ namespace Nop.Plugin.Widgets.What3words.Infrastructure
         {
             endpointRouteBuilder.MapControllerRoute(name: What3wordsDefaults.ConfigurationRouteName,
                 pattern: "Admin/What3words/Configure",
-                defaults: new { controller = "What3words", action = "Configure" });
+                defaults: new { controller = "CustomerApi", action = "Configure" });
         }
 
         /// <summary>

@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Copyright>SOME_COPYRIGHT</Copyright>
+    <Company>YOUR_COMPANY</Company>
+    <Authors>SOME_AUTHORS</Authors>
+    <PackageLicenseUrl>PACKAGE_LICENSE_URL</PackageLicenseUrl>
+    <PackageProjectUrl>PACKAGE_PROJECT_URL</PackageProjectUrl>
+    <RepositoryUrl>REPOSITORY_URL</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+
+    <!-- Set the correct output path for your plugin -->
+    <OutputPath>..\..\Presentation\Nop.Web\Plugins\Nop.Plugin.Api.Customer</OutputPath>
+    <OutDir>$(OutputPath)</OutDir>
+
+    <!-- Ensure DLLs from NuGet packages are copied to the output -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AnalysisLevel>none</AnalysisLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Reference to Nop.Web.Framework project -->
+    <ProjectReference Include="..\..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+
+    <!-- Optionally include the ClearPluginAssemblies task if needed -->
+    <ClearPluginAssemblies Include="$(MSBuildProjectDirectory)\..\..\Build\ClearPluginAssemblies.proj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.2.2" />
+  </ItemGroup>
+
+  <!-- Target to clean unnecessary libraries after build -->
+  <Target Name="NopTarget" AfterTargets="Build">
+    <MSBuild Projects="@(ClearPluginAssemblies)" Properties="PluginPath=$(MSBuildProjectDirectory)\$(OutDir)" Targets="NopClear" />
+  </Target>
+</Project>
